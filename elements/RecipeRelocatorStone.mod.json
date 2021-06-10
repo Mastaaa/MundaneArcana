@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.STONE_BUTTON"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ItemSparkingPebble"
+      },
+      {
+        "value": "Items.COMPASS"
+      },
+      {
+        "value": "CUSTOM:ItemSparkingPebble"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.REDSTONE"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ItemRelocatorStone"
+    },
+    "name": "recipe_relocator_stone",
+    "namespace": "mod"
+  }
+}

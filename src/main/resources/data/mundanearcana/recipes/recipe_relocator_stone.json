@@ -1,0 +1,30 @@
+{
+  "group": "mundanearcana",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:stone_button"
+    },
+    "3": {
+      "item": "mundanearcana:item_sparking_pebble"
+    },
+    "4": {
+      "item": "minecraft:compass"
+    },
+    "5": {
+      "item": "mundanearcana:item_sparking_pebble"
+    },
+    "7": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "mundanearcana:item_relocator_stone",
+    "count": 1
+  }
+}

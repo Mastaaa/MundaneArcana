@@ -134,9 +134,38 @@
       "ids": {},
       "registry_name": "item_relocator_stone_right_clicked",
       "metadata": {
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
       },
       "path": "~/Procedures"
+    },
+    {
+      "name": "ItemRelocatorStone",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "item_relocator_stone",
+      "path": "~/Items"
+    },
+    {
+      "name": "RecipeRelocatorStone",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "recipe_relocator_stone",
+      "path": "~/Recipes"
     }
   ],
   "variable_elements": [
@@ -169,7 +198,8 @@
   "language_map": {
     "en_us": {
       "item.mundanearcana.item_alchemical_primer": "Alchemical Primer",
-      "item.mundanearcana.item_sparking_pebble": "Item Sparking Pebble",
+      "item.mundanearcana.item_relocator_stone": "Item Relocator Stone",
+      "item.mundanearcana.item_sparking_pebble": "Sparking Pebble",
       "item.minor_arcana.item_alchemical_primer": "Alchemical Primer",
       "item.minor_arcana.item_blackened_primer": "Calcified Primer",
       "item.mundanearcana.item_blackened_primer": "Calcified Primer",

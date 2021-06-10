@@ -1,0 +1,16 @@
+{
+  "group": "mundanearcana",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:gunpowder"
+    },
+    {
+      "item": "mundanearcana:item_blackened_primer"
+    }
+  ],
+  "result": {
+    "item": "mundanearcana:pop_rock_item",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "group": "mundanearcana",
+  "type": "minecraft:blasting",
+  "experience": 5,
+  "cookingtime": 600,
+  "ingredient": {
+    "item": "mundanearcana:item_alchemical_primer"
+  },
+  "result": {
+    "item": "mundanearcana:item_blackened_primer"
+  }
+}

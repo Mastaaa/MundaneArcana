@@ -61,8 +61,7 @@ public class BlockSparkingOreBlock extends MundanearcanaModElements.ModElement {
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).harvestLevel(2)
-					.harvestTool(ToolType.PICKAXE).setRequiresTool().setNeedsPostProcessing((bs, br, bp) -> true)
-					.setEmmisiveRendering((bs, br, bp) -> true));
+					.harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("block_sparking_ore");
 		}
 
@@ -109,7 +108,7 @@ public class BlockSparkingOreBlock extends MundanearcanaModElements.ModElement {
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 16)).range(32)
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 3)).range(48)
 					.square().func_242731_b(15);
 			event.getRegistry().register(feature.setRegistryName("block_sparking_ore"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("mundanearcana:block_sparking_ore"), configuredFeature);

@@ -124,9 +124,47 @@
       "ids": {},
       "registry_name": "item_sparking_pebble",
       "path": "~/Items"
+    },
+    {
+      "name": "ItemRelocatorStoneRightClicked",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "item_relocator_stone_right_clicked",
+      "metadata": {
+        "dependencies": []
+      },
+      "path": "~/Procedures"
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "ArePlayerCoordsSaved",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "RelocatorPlayerCoordsX",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "RelocatorPlayerCoordsY",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "RelocatorPlayerCoordsZ",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    }
+  ],
   "sound_elements": [],
   "language_map": {
     "en_us": {

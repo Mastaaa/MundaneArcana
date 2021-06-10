@@ -32,7 +32,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Procedures"
     },
     {
       "name": "PopRockItem",
@@ -41,7 +42,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "pop_rock_item"
+      "registry_name": "pop_rock_item",
+      "path": "~/Items"
     },
     {
       "name": "BlockAlchemyBench",
@@ -50,7 +52,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "block_alchemy_bench"
+      "registry_name": "block_alchemy_bench",
+      "path": "~/Blocks"
     },
     {
       "name": "GUIAlchemyBench",
@@ -59,7 +62,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "gui_alchemy_bench"
+      "registry_name": "gui_alchemy_bench",
+      "path": "~/GUIs"
     },
     {
       "name": "ItemAlchemicalPrimer",
@@ -68,7 +72,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "item_alchemical_primer"
+      "registry_name": "item_alchemical_primer",
+      "path": "~/Items"
     },
     {
       "name": "ItemBlackenedPrimer",
@@ -77,7 +82,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "item_blackened_primer"
+      "registry_name": "item_blackened_primer",
+      "path": "~/Items"
     },
     {
       "name": "RecipePopRock",
@@ -86,7 +92,8 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "recipe_pop_rock"
+      "registry_name": "recipe_pop_rock",
+      "path": "~/Recipes"
     },
     {
       "name": "RecipeBlackenedPrimer",
@@ -95,7 +102,28 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "recipe_blackened_primer"
+      "registry_name": "recipe_blackened_primer",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BlockSparkingOre",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "block_sparking_ore",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ItemSparkingPebble",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "item_sparking_pebble",
+      "path": "~/Items"
     }
   ],
   "variable_elements": [],
@@ -103,13 +131,15 @@
   "language_map": {
     "en_us": {
       "item.mundanearcana.item_alchemical_primer": "Alchemical Primer",
+      "item.mundanearcana.item_sparking_pebble": "Item Sparking Pebble",
       "item.minor_arcana.item_alchemical_primer": "Alchemical Primer",
       "item.minor_arcana.item_blackened_primer": "Calcified Primer",
       "item.mundanearcana.item_blackened_primer": "Calcified Primer",
       "block.mundanearcana.block_alchemy_bench": "Block Alchemy Bench",
-      "item.mundanearcana.pop_rock_item": "Pop Rock Item",
+      "item.mundanearcana.pop_rock_item": "Pop Rock",
       "block.minor_arcana.block_alchemy_bench": "Block Alchemy Bench",
-      "item.minor_arcana.pop_rock_item": "Pop Rock Item"
+      "item.minor_arcana.pop_rock_item": "Pop Rock Item",
+      "block.mundanearcana.block_sparking_ore": "Sparking Stone"
     }
   },
   "foldersRoot": {
@@ -126,6 +156,14 @@
       {
         "name": "Items",
         "children": []
+      },
+      {
+        "name": "Procedures",
+        "children": []
+      },
+      {
+        "name": "GUIs",
+        "children": []
       }
     ]
   },
@@ -133,7 +171,7 @@
     "modid": "mundanearcana",
     "modName": "Mundane Arcana",
     "version": "1.0.0",
-    "author": "alexa, MCreator",
+    "author": "Alchetect",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,

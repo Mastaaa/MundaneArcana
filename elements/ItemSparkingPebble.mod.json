@@ -3,14 +3,14 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "inertpoprock",
-    "customModelName": "Tool",
-    "name": "Pop Rock",
-    "rarity": "UNCOMMON",
+    "texture": "sparkingpebble",
+    "customModelName": "Normal",
+    "name": "Item Sparking Pebble",
+    "rarity": "COMMON",
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "MISC"
     },
-    "stackSize": 16,
+    "stackSize": 64,
     "enchantability": 0,
     "useDuration": 0,
     "toolType": 1.0,
@@ -19,18 +19,17 @@
       "value": ""
     },
     "destroyAnyBlock": false,
-    "immuneToFire": true,
+    "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "specialInfo": [],
+    "specialInfo": [
+      "Packed with just enough power to produce a tiny magical effect, with the right tools."
+    ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
-    "inventoryStackSize": 64,
-    "onRightClickedOnBlock": {
-      "name": "PopRockItemRightClickedOnBlock"
-    }
+    "inventoryStackSize": 64
   }
 }

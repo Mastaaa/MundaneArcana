@@ -8,7 +8,7 @@ version="1.0.0"
 displayName="Mundane Arcana"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
-authors="alexa, MCreator"
+authors="Alchetect"
 
 [[dependencies.mundanearcana]]
     modId="minecraft"

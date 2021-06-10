@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "minor_arcana:block/block_alchemy_bench"
+    }
+  }
+}

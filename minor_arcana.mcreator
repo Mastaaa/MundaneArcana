@@ -1,0 +1,146 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "PopRockItemRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pop_rock_item_right_clicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PopRockItem",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pop_rock_item"
+    },
+    {
+      "name": "BlockAlchemyBench",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "block_alchemy_bench"
+    },
+    {
+      "name": "GUIAlchemyBench",
+      "type": "gui",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gui_alchemy_bench"
+    },
+    {
+      "name": "ItemAlchemicalPrimer",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "item_alchemical_primer"
+    },
+    {
+      "name": "ItemBlackenedPrimer",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "item_blackened_primer"
+    },
+    {
+      "name": "RecipePopRock",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "recipe_pop_rock"
+    },
+    {
+      "name": "RecipeBlackenedPrimer",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "recipe_blackened_primer"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.minor_arcana.item_alchemical_primer": "Alchemical Primer",
+      "item.minor_arcana.item_blackened_primer": "Calcified Primer",
+      "block.minor_arcana.block_alchemy_bench": "Block Alchemy Bench",
+      "item.minor_arcana.pop_rock_item": "Pop Rock Item"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Blocks",
+        "children": []
+      },
+      {
+        "name": "Recipes",
+        "children": []
+      },
+      {
+        "name": "Items",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "minor_arcana",
+    "modName": "Minor Arcana",
+    "version": "1.0.0",
+    "author": "alexa, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.minorarcana",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100118117
+}

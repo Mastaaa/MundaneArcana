@@ -33,7 +33,12 @@ public class ItemRelocatorStoneRightClickedProcedure extends MundanearcanaModEle
 		double PlayerPosY = 0;
 		double PlayerPosZ = 0;
 		boolean IsPlayerPosSaved = false;
-		if (((IsPlayerPosSaved) == (true))) {
+		if (((IsPlayerPosSaved) != (true))) {
+			PlayerPosX = (double) (entity.getPosX());
+			PlayerPosY = (double) (entity.getPosY());
+			PlayerPosZ = (double) (entity.getPosZ());
+			IsPlayerPosSaved = (boolean) (true);
+		} else {
 			{
 				Entity _ent = entity;
 				_ent.setPositionAndUpdate((PlayerPosX), (PlayerPosY), (PlayerPosZ));
@@ -43,11 +48,6 @@ public class ItemRelocatorStoneRightClickedProcedure extends MundanearcanaModEle
 				}
 			}
 			((itemstack)).shrink((int) 1);
-		} else {
-			PlayerPosX = (double) (entity.getPosX());
-			PlayerPosY = (double) (entity.getPosY());
-			PlayerPosZ = (double) (entity.getPosZ());
-			IsPlayerPosSaved = (boolean) (true);
 		}
 	}
 }

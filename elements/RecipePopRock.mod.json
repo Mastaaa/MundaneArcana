@@ -22,10 +22,10 @@
         "value": "Items.GUNPOWDER"
       },
       {
-        "value": "CUSTOM:ItemBlackenedPrimer"
+        "value": "CUSTOM:ItemSparkingPebble"
       },
       {
-        "value": ""
+        "value": "Items.FLINT"
       },
       {
         "value": ""

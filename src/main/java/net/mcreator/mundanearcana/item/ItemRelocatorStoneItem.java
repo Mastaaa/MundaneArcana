@@ -37,7 +37,7 @@ public class ItemRelocatorStoneItem extends MundanearcanaModElements.ModElement 
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(1).rarity(Rarity.COMMON));
+			super(new Item.Properties().group(ItemGroup.TOOLS).maxStackSize(1).rarity(Rarity.RARE));
 			setRegistryName("item_relocator_stone");
 		}
 

@@ -4,11 +4,11 @@
   "definition": {
     "renderType": 0,
     "texture": "relocatorstone",
-    "customModelName": "Normal",
-    "name": "Item Relocator Stone",
-    "rarity": "COMMON",
+    "customModelName": "Tool",
+    "name": "Relocator Stone",
+    "rarity": "RARE",
     "creativeTab": {
-      "value": "MISC"
+      "value": "TOOLS"
     },
     "stackSize": 1,
     "enchantability": 0,

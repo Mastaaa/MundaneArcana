@@ -6,7 +6,10 @@
       "item": "minecraft:gunpowder"
     },
     {
-      "item": "mundanearcana:item_blackened_primer"
+      "item": "mundanearcana:item_sparking_pebble"
+    },
+    {
+      "item": "minecraft:flint"
     }
   ],
   "result": {
